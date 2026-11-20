@@ -30,7 +30,7 @@ export function StageScreen({ stageId }: { stageId: string }) {
                     return;
                   }
                   sfx.tap();
-                  speakHe(u.title);
+                  speakHe(/^[A-Z]/.test(u.title) ? 'אותיות' : u.title);
                   go({ name: 'unit', unitId: u.id });
                 }}
                 className={`tap card relative flex flex-col items-center gap-1 p-4 ${open ? '' : 'opacity-60 grayscale'}`}

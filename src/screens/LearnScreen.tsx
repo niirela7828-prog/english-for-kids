@@ -35,10 +35,10 @@ export function LearnCards({ unit, onDone }: { unit: Unit; onDone: () => void })
     <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 px-3">
       <Instruction text={unit.story ? 'הקשיבי לסיפור. הקישי על המשפט כדי לשמוע שוב' : 'הקשיבי וחזרי אחריי בקול'} />
       <ProgressDots done={i + 1} total={items.length} />
-      <div key={it.id} className="card flex w-full animate-pop flex-col items-center gap-4 p-6">
+      <div key={it.id} className="card flex w-full animate-pop flex-col items-center gap-3 p-4">
         {it.kind === 'letter' ? (
           <>
-            <span dir="ltr" role="button" onClick={() => speakEn(`${it.en}.`)} className="en text-[9rem] font-bold leading-none text-violet-700">
+            <span dir="ltr" role="button" onClick={() => speakEn(`${it.en}.`)} className="en text-[7.5rem] font-bold leading-none text-violet-700">
               {it.en}
               <span className="text-pink-500">{it.lower}</span>
             </span>
@@ -46,7 +46,7 @@ export function LearnCards({ unit, onDone }: { unit: Unit; onDone: () => void })
           </>
         ) : (
           <>
-            <span className="emoji text-[8rem] leading-none" role="button" onClick={() => speakEn(it.en)}>
+            <span className="emoji text-[6.5rem] leading-none" role="button" onClick={() => speakEn(it.en)}>
               {it.emoji}
             </span>
             <EnText text={it.en} tr={it.tr} he={it.he} className={it.kind === 'word' ? 'text-7xl' : 'text-5xl text-center'} />
@@ -68,7 +68,7 @@ export function LearnCards({ unit, onDone }: { unit: Unit; onDone: () => void })
             sfx.tap();
             setI(i - 1);
           }}
-          className="tap h-24 w-24 rounded-full bg-white text-5xl shadow disabled:opacity-30"
+          className="tap h-20 w-20 rounded-full bg-white text-5xl shadow disabled:opacity-30"
         >
           ➡️
         </button>
@@ -79,7 +79,7 @@ export function LearnCards({ unit, onDone }: { unit: Unit; onDone: () => void })
             if (last) finish();
             else setI(i + 1);
           }}
-          className={`tap h-24 flex-1 rounded-full text-5xl shadow-lg ${last ? 'bg-emerald-400' : 'bg-violet-400'}`}
+          className={`tap h-20 flex-1 rounded-full text-5xl shadow-lg ${last ? 'bg-emerald-400' : 'bg-violet-400'}`}
         >
           {last ? '🎉' : '⬅️'}
         </button>

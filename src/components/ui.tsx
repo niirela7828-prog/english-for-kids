@@ -12,10 +12,10 @@ export function TopBar({ title, emoji, right }: { title?: string; emoji?: string
       <button aria-label="מפה" onClick={() => { sfx.tap(); home(); }} className="tap grid h-16 w-16 place-items-center rounded-2xl bg-white text-4xl shadow">
         🗺️
       </button>
-      <h1 className="flex-1 truncate text-center text-3xl font-bold text-violet-900">
+      <h1 className="flex-1 truncate text-center text-2xl sm:text-3xl font-bold text-violet-900">
         {emoji} {title}
       </h1>
-      <div className="flex min-w-[8.5rem] justify-end">{right}</div>
+      <div className="flex justify-end sm:min-w-[8.5rem]">{right}</div>
     </header>
   );
 }
@@ -43,7 +43,7 @@ export function Coins({ n }: { n: number }) {
 export function Modal({ children, onClose }: { children: ReactNode; onClose?: () => void }) {
   return (
     <div className="fixed inset-0 z-40 grid place-items-center bg-black/40 p-4" onClick={onClose}>
-      <div className="w-full max-w-md animate-pop rounded-[2rem] bg-white p-6 text-center shadow-2xl" onClick={(e) => e.stopPropagation()}>
+      <div className="max-h-[92vh] w-full max-w-md animate-pop overflow-y-auto rounded-[2rem] bg-white p-6 text-center shadow-2xl" onClick={(e) => e.stopPropagation()}>
         {children}
       </div>
     </div>
