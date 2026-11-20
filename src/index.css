@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cream font-round text-slate-800 antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+input {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* English content: clear, rounded, left-to-right */
+.en {
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', system-ui, sans-serif;
+  letter-spacing: 0.02em;
+  unicode-bidi: isolate;
+}
+
+.emoji {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  line-height: 1.1;
+}
+
+@layer components {
+  .card {
+    @apply rounded-[2rem] bg-white shadow-[0_6px_0_#e9d5ff,0_10px_20px_rgba(0,0,0,0.06)];
+  }
+  /* touch feedback (no hover on tablets) */
+  .tap {
+    @apply select-none transition-transform duration-100 active:scale-95;
+    min-height: 64px;
+    min-width: 64px;
+  }
+}
+
+/* Confetti */
+.confetti-piece {
+  position: absolute;
+  top: -20px;
+  width: 12px;
+  height: 16px;
+  animation: confetti-fall 2.2s cubic-bezier(0.25, 0.6, 0.5, 1) forwards;
+}
+@keyframes confetti-fall {
+  0% {
+    transform: translate(0, 0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--dx), 105vh) rotate(var(--rot));
+    opacity: 0.9;
+  }
+}
+
+/* Balloons float up forever – no time pressure */
+.balloon {
+  transform: translate(-50%, 110%);
+  animation: balloon-up linear infinite;
+}
+@keyframes balloon-up {
+  from {
+    transform: translate(-50%, 110%);
+  }
+  to {
+    transform: translate(-50%, -62vh);
+  }
+}
+@media (max-width: 520px) {
+  .balloon > span:first-child {
+    width: 5.2rem;
+    height: 6.8rem;
+  }
+}
+
+/* Memory card flip */
+.flip {
+  transform-style: preserve-3d;
+  transition: transform 0.45s;
+}
+.flip.flipped {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .balloon {
+    animation-duration: 30s !important;
+  }
+}
