@@ -45,6 +45,7 @@ npm run preview   # הצגת הגרסה הבנויה
 ## פריסה ל-GitHub Pages
 
 הקובץ `.github/workflows/deploy.yml` בונה ומפרסם את האתר אוטומטית בכל push ל-`main`.
+הקובץ `.github/workflows/ci.yml` מריץ את הבדיקות והבנייה על כל Pull Request, בלי לפרסם.
 הפעלה חד-פעמית:
 
 1. במאגר ב-GitHub נכנסים ל-**Settings**, ואז ל-**Pages** בתפריט הצד.
