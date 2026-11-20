@@ -1,0 +1,278 @@
+{
+ "groups": [
+  [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E"
+  ],
+  [
+   "F",
+   "G",
+   "H",
+   "I",
+   "J"
+  ],
+  [
+   "K",
+   "L",
+   "M",
+   "N"
+  ],
+  [
+   "O",
+   "P",
+   "Q",
+   "R"
+  ],
+  [
+   "S",
+   "T",
+   "U",
+   "V"
+  ],
+  [
+   "W",
+   "X",
+   "Y",
+   "Z"
+  ]
+ ],
+ "letters": [
+  {
+   "letter": "A",
+   "name": "אֵיי",
+   "sound": "אַ",
+   "word": "apple",
+   "wordHe": "תפוח",
+   "wordTr": "אֶפֶּל",
+   "emoji": "🍎"
+  },
+  {
+   "letter": "B",
+   "name": "בִּי",
+   "sound": "בּ",
+   "word": "ball",
+   "wordHe": "כדור",
+   "wordTr": "בּוֹל",
+   "emoji": "⚽"
+  },
+  {
+   "letter": "C",
+   "name": "סִי",
+   "sound": "ק",
+   "word": "cat",
+   "wordHe": "חתול",
+   "wordTr": "קֶט",
+   "emoji": "🐱"
+  },
+  {
+   "letter": "D",
+   "name": "דִי",
+   "sound": "ד",
+   "word": "dog",
+   "wordHe": "כלב",
+   "wordTr": "דוֹג",
+   "emoji": "🐶"
+  },
+  {
+   "letter": "E",
+   "name": "אִי",
+   "sound": "אֶ",
+   "word": "egg",
+   "wordHe": "ביצה",
+   "wordTr": "אֶג",
+   "emoji": "🥚"
+  },
+  {
+   "letter": "F",
+   "name": "אֶף",
+   "sound": "פ",
+   "word": "fish",
+   "wordHe": "דג",
+   "wordTr": "פִיש",
+   "emoji": "🐟"
+  },
+  {
+   "letter": "G",
+   "name": "גִ'י",
+   "sound": "ג",
+   "word": "girl",
+   "wordHe": "ילדה",
+   "wordTr": "גֶרְל",
+   "emoji": "👧"
+  },
+  {
+   "letter": "H",
+   "name": "אֵייץ'",
+   "sound": "ה",
+   "word": "hat",
+   "wordHe": "כובע",
+   "wordTr": "הֶט",
+   "emoji": "👒"
+  },
+  {
+   "letter": "I",
+   "name": "אַיי",
+   "sound": "אִ",
+   "word": "igloo",
+   "wordHe": "איגלו",
+   "wordTr": "אִיגְלוּ",
+   "emoji": "🛖"
+  },
+  {
+   "letter": "J",
+   "name": "גֵ'יי",
+   "sound": "ג'",
+   "word": "juice",
+   "wordHe": "מיץ",
+   "wordTr": "ג'וּס",
+   "emoji": "🧃"
+  },
+  {
+   "letter": "K",
+   "name": "קֵיי",
+   "sound": "ק",
+   "word": "kite",
+   "wordHe": "עפיפון",
+   "wordTr": "קַייט",
+   "emoji": "🪁"
+  },
+  {
+   "letter": "L",
+   "name": "אֶל",
+   "sound": "ל",
+   "word": "lion",
+   "wordHe": "אריה",
+   "wordTr": "לַאיֵן",
+   "emoji": "🦁"
+  },
+  {
+   "letter": "M",
+   "name": "אֶם",
+   "sound": "מ",
+   "word": "moon",
+   "wordHe": "ירח",
+   "wordTr": "מוּן",
+   "emoji": "🌙"
+  },
+  {
+   "letter": "N",
+   "name": "אֶן",
+   "sound": "נ",
+   "word": "nose",
+   "wordHe": "אף",
+   "wordTr": "נוֹאוּז",
+   "emoji": "👃"
+  },
+  {
+   "letter": "O",
+   "name": "אוֹאוּ",
+   "sound": "אוֹ",
+   "word": "octopus",
+   "wordHe": "תמנון",
+   "wordTr": "אוֹקְטוֹפּוּס",
+   "emoji": "🐙"
+  },
+  {
+   "letter": "P",
+   "name": "פִּי",
+   "sound": "פּ",
+   "word": "pig",
+   "wordHe": "חזיר",
+   "wordTr": "פִּיג",
+   "emoji": "🐷"
+  },
+  {
+   "letter": "Q",
+   "name": "קְיוּ",
+   "sound": "קְו",
+   "word": "queen",
+   "wordHe": "מלכה",
+   "wordTr": "קְוִוין",
+   "emoji": "👸"
+  },
+  {
+   "letter": "R",
+   "name": "אַר",
+   "sound": "ר",
+   "word": "rainbow",
+   "wordHe": "קשת",
+   "wordTr": "רֵיינְבּוֹאוּ",
+   "emoji": "🌈"
+  },
+  {
+   "letter": "S",
+   "name": "אֶס",
+   "sound": "ס",
+   "word": "sun",
+   "wordHe": "שמש",
+   "wordTr": "סַאן",
+   "emoji": "☀️"
+  },
+  {
+   "letter": "T",
+   "name": "טִי",
+   "sound": "ט",
+   "word": "tree",
+   "wordHe": "עץ",
+   "wordTr": "טְרִי",
+   "emoji": "🌳"
+  },
+  {
+   "letter": "U",
+   "name": "יוּ",
+   "sound": "אַ",
+   "word": "umbrella",
+   "wordHe": "מטרייה",
+   "wordTr": "אַמְבְּרֶלָה",
+   "emoji": "☂️"
+  },
+  {
+   "letter": "V",
+   "name": "וִי",
+   "sound": "ו",
+   "word": "violin",
+   "wordHe": "כינור",
+   "wordTr": "וַיוֹלִין",
+   "emoji": "🎻"
+  },
+  {
+   "letter": "W",
+   "name": "דַאבֶּל יוּ",
+   "sound": "וו",
+   "word": "whale",
+   "wordHe": "לווייתן",
+   "wordTr": "וֵויל",
+   "emoji": "🐳"
+  },
+  {
+   "letter": "X",
+   "name": "אֶקְס",
+   "sound": "קְס",
+   "word": "fox",
+   "wordHe": "שועל",
+   "wordTr": "פוֹקְס",
+   "emoji": "🦊"
+  },
+  {
+   "letter": "Y",
+   "name": "וַואי",
+   "sound": "י",
+   "word": "yo-yo",
+   "wordHe": "יו-יו",
+   "wordTr": "יוֹ-יוֹ",
+   "emoji": "🪀"
+  },
+  {
+   "letter": "Z",
+   "name": "זִי",
+   "sound": "ז",
+   "word": "zebra",
+   "wordHe": "זברה",
+   "wordTr": "זִיבְּרָה",
+   "emoji": "🦓"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#a78bfa"/>
+  <circle cx="256" cy="256" r="230" fill="#c4b5fd"/>
+  <g transform="translate(76 60) scale(3)">
+    <ellipse cx="38" cy="26" rx="11" ry="24" fill="#ddd6fe" transform="rotate(-12 38 26)"/>
+    <ellipse cx="38" cy="28" rx="5.5" ry="16" fill="#fbcfe8" transform="rotate(-12 38 28)"/>
+    <ellipse cx="82" cy="26" rx="11" ry="24" fill="#ddd6fe" transform="rotate(12 82 26)"/>
+    <ellipse cx="82" cy="28" rx="5.5" ry="16" fill="#fbcfe8" transform="rotate(12 82 28)"/>
+    <g fill="#f5f3ff"><circle cx="60" cy="80" r="40"/><circle cx="28" cy="96" r="16"/><circle cx="92" cy="96" r="16"/><circle cx="45" cy="110" r="14"/><circle cx="75" cy="110" r="14"/></g>
+    <ellipse cx="45" cy="72" rx="7" ry="8" fill="#3b2f63"/><ellipse cx="75" cy="72" rx="7" ry="8" fill="#3b2f63"/>
+    <circle cx="47.5" cy="69" r="2.5" fill="#fff"/><circle cx="77.5" cy="69" r="2.5" fill="#fff"/>
+    <ellipse cx="34" cy="86" rx="7" ry="4.5" fill="#f9a8d4"/><ellipse cx="86" cy="86" rx="7" ry="4.5" fill="#f9a8d4"/>
+    <path d="M50 88 q10 9 20 0" stroke="#3b2f63" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M60 98 l3.5 7 7.5 1 -5.5 5 1.5 7.5 -7-3.8 -7 3.8 1.5-7.5 -5.5-5 7.5-1z" fill="#fde047"/>
+  </g>
+  <text x="400" y="140" font-family="Arial Rounded MT Bold, Arial" font-weight="bold" font-size="110" fill="#fff" stroke="#7c3aed" stroke-width="8" paint-order="stroke">A</text>
+</svg>
